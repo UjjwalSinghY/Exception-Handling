@@ -9,8 +9,8 @@ public class ReverseArray {
             a[a.length-1-i]=a[i]-a[a.length-1-i];
             a[i]=a[i]-a[a.length-1-i];
         }
-        for(int i=0;i<a.length;i++){
-            System.out.print(a[i]+" ");
+        for(int j=0;j<a.length;j++){
+            System.out.print(a[j]+" ");
         }
     }
 }
